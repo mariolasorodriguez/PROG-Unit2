@@ -35,6 +35,9 @@ public class Exercise09 {
 		}	else {
 			System.out.println("La nota debe estar entre 0 y 10");
 		}
+		
+		// Close the scanner
+		reader.close();
 			
 	}
 }

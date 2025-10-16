@@ -47,5 +47,8 @@ public class Exercise10 {
 		
 		// Print the time
 		System.out.println("Hora actualizada: " + hours + ":" + minutes + ":" + seconds);
+		
+		// Close the scanner
+		reader.close();
 	}
 }

@@ -39,5 +39,8 @@ public class Exercise08 {
 		} else {
 			System.out.println(num3 + " es mayor");
 		}
+		
+		// Close the scanner
+		reader.close();
 	}
 }
