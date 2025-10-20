@@ -18,11 +18,11 @@ public class Exercise05 {
 		String jugada2;
 		
 		// Preguntamos las jugada del jugador 1, la leemos y guardamos en la variable
-		System.out.println("JUGADOR 1 | Introduce PIEDRA, PAPEL O TIJERA: ");
+		System.out.println("JUGADOR 1 | Introduce PIEDRA, PAPEL O TIJERAS: ");
 		jugada1 = reader.next();
 		
 		// Preguntamos las jugada del jugador 2, la leemos y guardamos en la variable
-		System.out.println("JUGADOR 2 | Introduce PIEDRA, PAPEL O TIJERA: ");
+		System.out.println("JUGADOR 2 | Introduce PIEDRA, PAPEL O TIJERAS: ");
 		jugada2 = reader.next();
 		
 		// Comprobamos las jugadas
@@ -35,6 +35,12 @@ public class Exercise05 {
 		} else if (jugada1.equals(jugada2)) {
 			System.out.println("¡EMPATE!"); // En caso de que las jugadas sean iguales, se dará por empate
 			
+		// Comprobamos la jugada ganadora
+		} else if (jugada1.equals(PIEDRA) && jugada2.equals(TIJERAS) || jugada1.equals(PAPEL) && jugada2.equals(PIEDRA)|| jugada1.equals(TIJERAS) && jugada2.equals(PAPEL)) {
+
+			System.out.println("Jugador 1: GANADOR");
+		} else {
+			System.out.println("Jugador 2: GANADOR");
 		}
 				
 		// Cerrar el scanner
