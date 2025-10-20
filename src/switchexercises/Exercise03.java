@@ -39,7 +39,13 @@ public class Exercise03 {
 		case "A" , "a" -> System.out.println("Resultado de la suma: " + (numero1 + numero2));
 		case "B" , "b" -> System.out.println("Resultado de la resta: " + (numero1 - numero2));
 		case "C" , "c" -> System.out.println("Resultado de la multiplicacion: " + numero1 * numero2);
-		case "D" , "d" -> System.out.println("Resultado de la division: " + (double) numero1 / numero2);
+		case "D" , "d" -> {
+			if (numero2 != 0) {
+				System.out.println("Resultado de la division: " + (double) numero1 / numero2); // Solo se hara la division si el numero es distinto a 0
+			} else {
+				System.out.println("Usa la cabeza, no se puede dividir entre 0"); // Si el segundo numero es 0, mostrara un error
+			}
+		}
 		default -> System.out.println("Las opciones son A, B, C, D no las que te inventes, a ver si aprendemos a leer");
 		}
 		
