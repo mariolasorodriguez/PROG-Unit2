@@ -32,7 +32,7 @@ public class Exercise04 {
 		segundaTirada = reader.next();
 		
 		
-		// Comprobamos que ha sacado en la primera tirada y lo pasamos a numero para guardarlo en la misma variable
+		// Comprobamos que ha sacado en la primera tirada y lo pasamos a numero para guardarlo en otra variable que se usará para sumarlas
 		numPrimera = switch (primeraTirada) {
 		case "UNO", "uno" -> { 
 			yield 1;
@@ -57,7 +57,7 @@ public class Exercise04 {
 		}
 		};
 		
-		// Comprobamos que ha sacado en la segunda tirada y lo pasamos a numero para guardarlo en la misma variable
+		// Comprobamos que ha sacado en la segunda tirada y lo pasamos a numero para guardarlo en otra variable que se usará para sumarlas
 		numSegunda = switch (segundaTirada) {
 		case "UNO", "uno" -> { 
 			yield 1;
