@@ -6,6 +6,13 @@ public class Exercise03 {
 
 	public static void main(String[] args) {
 		
+		/*
+		 * Para poder probar este programa tendremos que introducir un numero de 8 cifras
+		 * si se cumple la condicion de que sea de 8 cifras, empezara a realizar los calculos
+		 * para sacar la letra del documento, si el numero no tiene 8 cifras lanzará un error
+		 * de que no cumple con las 8 cifras 
+		 */
+		
 		// Creamos el scanner
 		Scanner reader = new Scanner(System.in);
 		
