@@ -23,7 +23,7 @@ public class Exercise03 {
 		
 		
 		// Declaramos una variable tipo cadena para guardar la letra asignada
-		String letraDni;
+		String letraDni = null;
 		
 		
 		// Preguntamos el numero de documento al usuario
@@ -77,6 +77,36 @@ public class Exercise03 {
 			case 11 -> {
 				yield "B";
 			}
+			case 12 -> {
+				yield "N";
+			}
+			case 13 -> {
+				yield "J";
+			}
+			case 14 -> {
+				yield "Z";
+			}
+			case 15 -> {
+				yield "S";
+			}
+			case 16 -> {
+				yield "Q";
+			}
+			case 17 -> {
+				yield "V";
+			}
+			case 18 -> {
+				yield "H";
+			}
+			case 19 -> {
+				yield "L";
+			}
+			case 20 -> {
+				yield "C";
+			}
+			case 21 -> {
+				yield "K";
+			}
 			default -> {
 				yield "E";
 			}
@@ -87,8 +117,11 @@ public class Exercise03 {
 		}
 		
 		
+		// Mostramos el resultado
+		System.out.println("Tu DNI Completo es: " + numDocumento + letraDni);
 		
-		
+		// Cerrar el scanner
+		reader.close();
 	}
 
 }
