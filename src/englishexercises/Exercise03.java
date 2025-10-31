@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Exercise03 {
 	public static void main(String[] args) {
 
+		// Creation of the scanner
+		Scanner reader = new Scanner(System.in);
+		
 		// Declare variables for the input
 		int mirrorHour;
 		int mirrorMinute;
@@ -12,9 +15,6 @@ public class Exercise03 {
 		// Declare variables for the calculated real time
 		int realHour;
 		int realMinute;
-		
-		// Creation of the scanner
-		Scanner reader = new Scanner(System.in);
 
 		// Ask the user for the hour in the mirror
 		System.out.println("Introduce the hour that you are seeing in the mirror:");

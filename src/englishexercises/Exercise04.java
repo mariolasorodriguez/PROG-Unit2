@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class Exercise04 {
 	public static void main(String[] args) {
+		
 		// Creation of the scanner
-				Scanner reader = new Scanner(System.in);
+		Scanner reader = new Scanner(System.in);
 				
 		// Declare variables for input
 		int amountToPay;
