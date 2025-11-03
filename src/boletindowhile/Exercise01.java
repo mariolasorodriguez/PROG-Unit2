@@ -1,12 +1,7 @@
 package boletindowhile;
 
-import java.util.Scanner;
-
 public class Exercise01 {
 	public static void main(String[] args) {
-		
-		// Creamos el scanner
-		Scanner reader = new Scanner(System.in);
 		
 		// Declaramos las variables
 		int numero = 1;
