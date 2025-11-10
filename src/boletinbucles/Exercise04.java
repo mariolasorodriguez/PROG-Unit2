@@ -18,6 +18,8 @@ public class Exercise04 {
 			numero = reader.nextInt();
 		}
 		
+		reader.close();
+		
 		
 		
 		
