@@ -9,9 +9,9 @@ public class Exercise01 {
 		System.out.println("Mostrando los numeros del 1 al 20:");
 		
 		// Creamos el bucle para mostrar los numeros del 1 al 20
-		while (numero <= 20) {
+		do {
 			System.out.println(numero);
 			numero++;
-		}
+		} while (numero <= 20);
 	}
 }
