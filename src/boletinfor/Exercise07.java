@@ -24,8 +24,8 @@ public class Exercise07 {
 		if (numero <= 1) {
 			esPrimo = false;
 		} else {
-			for (int i = 2; i <= Math.sqrt(numero); i++) {
-				if (numero % i == 0) {
+			for (int contador = 2; contador <= Math.sqrt(numero); contador++) {
+				if (numero % contador == 0) {
 					esPrimo = false;
 				}
 			}
