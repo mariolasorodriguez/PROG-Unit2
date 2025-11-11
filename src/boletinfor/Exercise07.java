@@ -26,7 +26,6 @@ public class Exercise07 {
 			for (int i = 2; i <= Math.sqrt(numero); i++) {
 				if (numero % i == 0) {
 					esPrimo = false;
-					break;
 				}
 			}
 		}
