@@ -24,9 +24,9 @@ public class Exercise07 {
 		if (numero <= 1) {
 			esPrimo = false;
 		} else {
-			for (int contador = 2; contador <= Math.sqrt(numero); contador++) {
-				if (numero % contador == 0) {
-					esPrimo = false;
+			for (int contador = 2; contador * contador <= numero; contador++) {
+		        if (numero % contador == 0) {
+		            esPrimo = false;
 				}
 			}
 		}
