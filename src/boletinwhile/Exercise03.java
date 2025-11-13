@@ -1,8 +1,8 @@
-package boletinbucles;
+package boletinwhile;
 
 import java.util.Scanner;
 
-public class Exercise02 {
+public class Exercise03 {
 	public static void main(String[] args) {
 		
 		// Creamos el scanner

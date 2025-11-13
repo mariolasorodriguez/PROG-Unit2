@@ -1,4 +1,4 @@
-package boletinbucles;
+package boletinwhile;
 
 import java.util.Scanner;
 
