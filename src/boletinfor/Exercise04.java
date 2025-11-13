@@ -2,9 +2,7 @@ package boletinfor;
 
 public class Exercise04 {
 	public static void main(String[] args) {
-
-		// Diseñar un programa que muestre la suma de los 10 primeros números impares.
-
+		
 		// Declaramos las variables
 		int suma = 0;
 

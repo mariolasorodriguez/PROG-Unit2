@@ -5,9 +5,6 @@ import java.util.Scanner;
 public class Exercise07 {
 	public static void main(String[] args) {
 
-		// Realiza un programa en java que pida un número entero positivo y nos diga si
-		// es primo o no.
-
 		// Creamos el scanner
 		Scanner reader = new Scanner(System.in);
 

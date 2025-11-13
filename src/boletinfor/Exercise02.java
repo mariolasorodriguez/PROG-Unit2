@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Exercise02 {
 	public static void main(String[] args) {
+		
 		// Creamos el scanner
 		Scanner reader = new Scanner(System.in);
 

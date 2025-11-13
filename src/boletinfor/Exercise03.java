@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class Exercise03 {
 	public static void main(String[] args) {
 
-		// Pedir diez números por teclado y mostrar la media.
-
 		// Creamos el scanner
 		Scanner reader = new Scanner(System.in);
 
