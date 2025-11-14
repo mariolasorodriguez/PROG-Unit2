@@ -17,15 +17,22 @@ public class Exercise07 {
 		// Leemos el número
 		numero = reader.nextInt();
 
-		// Comprobamos si el número es primo
-		if (numero <= 1) {
-			esPrimo = false;
+		// Comprobamos que el número es positivo
+		if (numero < 0) {
+			System.out.println("El número debe ser positivo.");
 		} else {
-			for (int contador = 2; contador * contador <= numero; contador++) {
-		        if (numero % contador == 0) {
-		            esPrimo = false;
+
+			// Comprobamos si el número es primo
+			if (numero <= 1) {
+				esPrimo = false;
+			} else {
+				for (int contador = 2; contador * contador <= numero; contador++) {
+					if (numero % contador == 0) {
+						esPrimo = false;
+					}
 				}
 			}
+
 		}
 
 		// Mostramos el resultado
